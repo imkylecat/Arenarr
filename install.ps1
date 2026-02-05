@@ -13,9 +13,6 @@ $taskXml = @"
       <Enabled>true</Enabled>
       <UserId>$env:USERDOMAIN\$env:USERNAME</UserId>
     </LogonTrigger>
-    <IdleTrigger>
-      <Enabled>true</Enabled>
-    </IdleTrigger>
   </Triggers>
   <Principals>
     <Principal id="Author">
